@@ -1,0 +1,24 @@
+body,td,th{font-family: 'Quattrocento', 'Cardo';font-size:11pt; }
+table {border-collapse: collapse;}
+
+table, th, td {
+    border: 1px solid #bbb;
+}
+
+th, tr.label {
+  background-color: #ddd;
+}
+
+td,th{
+  padding:3px;
+}
+
+td{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/*@media print{
+ body{
+  margin-left: 1.2cm;
+}
+}*/
