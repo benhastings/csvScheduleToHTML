@@ -73,35 +73,7 @@ for(var i in records){
   }// End not header Row
 }
 
-// var outDates = function(inDate){
-//   d=new Date(inDate);
-//   da=d.toDateString().split(' ');
-//   printD=da[1]+' '+da[2];
-//   return printD;
-// };
-// var headRow='';
-// for(var d in dates.s){
-//   sun=dates.s[d];
-//   if(typeof(sun)==='number' & sun !== undefined){
-//     dt=new Date(sun*1000);
-//     dta=dt.toString().split(' ');
-//     dtp=dta[1]+' '+dta[2];
-//     console.log(dtp);
-//     headRow+=','+dtp;
-//   }
-// }
-//
-// var wedRow='';
-// for(var d in dates.w){
-//   wed=dates.w[d];
-//   if(typeof(wed)==='number' & wed !== undefined){
-//     dt=new Date(wed*1000);
-//     dta=dt.toString().split(' ');
-//     dtp=dta[1]+' '+dta[2];
-//     console.log(dtp);
-//     wedRow+=','+dtp;
-//   }
-// }
+
 
 roleCol={
   'row00':'Sunday Morning',
@@ -217,34 +189,3 @@ htmlOut+='</table></body></html>';
 
 htmlOut.replace(/\'/g,'"');
 
-
-//1-14, 16-21, 22-26
-// roleCol={
-// 'Sunday Morning':'Sunday Morning',
-// 'Announcements':'announcements',
-// 'Lead Singing':'Lead Singing',
-// 'Opening Prayer':'Opening Prayer',
-// "Lord Supper AM Presiding":"LS Presiding",
-// "Lord's Supper AM 1":"LS Serving",
-// "Lord's Supper AM 2":"LS Serving",
-// "Lord's Supper AM 3":"LS Serving",
-// "Lord's Supper AM 4":"LS Serving",
-// "Lord's Supper AM 5":"LS Serving",
-// "Lord's Supper AM 6":"LS Serving",
-// "Lord's Supper AM 7":"LS Serving",
-// "Scripture Reading":'Scripture Reading',
-// 'Closing Prayer':'Closing Prayer',
-// 'Audio video Sunday am':'A/V AM',
-// 'Sunday Evening':'Sunday Evening',
-// 'Lead Singing':'Lead Singing',
-// 'Opening Prayer':'Opening Prayer',
-// "Lord's Supper Sunday Evening Presiding":'LS Presiding',
-// "Lords Supper PM":'LS Serving',
-// 'Closing Prayer':'Closing Prayer',
-// 'Audio video Sunday pm':'A/V PM',
-// 'Wednesday':'Wednesday',
-// 'Lead Singing':'Lead singing',
-// 'Invitation':'Invitation',
-// 'Closing Prayer':'Closing Prayer',
-// 'Audio video wed.':'A/V Wed'
-// }
