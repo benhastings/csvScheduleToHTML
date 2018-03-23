@@ -91,19 +91,21 @@ roleCol={
   'row12':"Scripture Reading",
   'row13':'Closing Prayer Sun AM',
   'row14':'Audio video Sun AM',
-  'row15':'Usher',
-  'row16':'Sunday Evening',
-  'row17':'Lead Singing Sun PM',
-  'row18':'Opening Prayer PM',
-  'row19':"Lord's Supper PM Presiding",
-  'row20':"Lords Supper PM",
-  'row21':'Closing Prayer Sun PM',
-  'row22':'Audio video Sun PM',
-  'row23':'Wednesday',
-  'row24':'Lead Singing Wed',
-  'row25':'Invitation',
-  'row26':'Closing Prayer',
-  'row27':'Audio video wed.'
+  'row15':'Usher Left',
+  'row16':'Usher Center',
+  'row17':'Usher Right',
+  'row18':'Sunday Evening',
+  'row19':'Lead Singing Sun PM',
+  'row20':'Opening Prayer PM',
+  'row21':"Lord's Supper PM Presiding",
+  'row22':"Lords Supper PM",
+  'row23':'Closing Prayer Sun PM',
+  'row24':'Audio video Sun PM',
+  'row25':'Wednesday',
+  'row26':'Lead Singing Wed',
+  'row27':'Invitation',
+  'row28':'Closing Prayer',
+  'row29':'Audio video wed.'
 };
 
 rows={
@@ -122,19 +124,21 @@ rows={
   row12:["Scripture Reading"],
   row13:["Closing Prayer"],
   row14:["A/V AM"],
-  row15:["Usher"],
-  row16:["Sunday Evening"],
-  row17:["Lead Singing"],
-  row18:["Opening Prayer"],
-  row19:["LS Presiding"],
-  row20:["LS Serving"],
-  row21:["CLosing Prayer"],
-  row22:["A/V PM"],
-  row23:["Wednesday"],
-  row24:["Lead Singing"],
-  row25:["Invitation"],
-  row26:["Closing Prayer"],
-  row27:["A/V Wed"]
+  row15:["Usher Left"],
+  row16:["Usher Center"],
+  row17:["Usher Right"],
+  row18:["Sunday Evening"],
+  row19:["Lead Singing"],
+  row20:["Opening Prayer"],
+  row21:["LS Presiding"],
+  row22:["LS Serving"],
+  row23:["CLosing Prayer"],
+  row24:["A/V PM"],
+  row25:["Wednesday"],
+  row26:["Lead Singing"],
+  row27:["Invitation"],
+  row28:["Closing Prayer"],
+  row29:["A/V Wed"]
 };
 
 
@@ -189,3 +193,4 @@ htmlOut+='</table></body></html>';
 
 htmlOut.replace(/\'/g,'"');
 
+console.log(htmlOut)

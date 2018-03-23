@@ -17,8 +17,15 @@ td{
   padding-left: 5px;
   padding-right: 5px;
 }
-/*@media print{
- body{
-  margin-left: 1.2cm;
+
+span{
+ font-style:italic;
+ padding-left:5px;
+ line-height:2.5;
 }
-}*/
+
+@media print{
+ body{
+  margin-left: 1cm;
+}
+}
